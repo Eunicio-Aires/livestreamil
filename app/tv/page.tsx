@@ -8,7 +8,7 @@ export default function TvStream(){
       <div className=" ">
         <Nav/>
         <div className="flex justify-center  h-screen min-w-[600px]">
-  <div className="w-[550px] max-h-[450px] flex border-10 border-black p-4">
+  <div className="w-[650px] max-h-[450px] flex border-10 border-black p-4 rounded-sm">
   <MuxPlayer 
     streamType="live"
     playbackId="02a01NjB00dm02Wg426KR8aMKnkZD538JnG7YQZmkoNoebc"
