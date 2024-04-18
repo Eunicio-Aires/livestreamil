@@ -11,7 +11,7 @@ export default function TvStream(){
   <div className="w-[97%] max-h-[450px] flex border-10 border-black p-4 rounded-sm">
   <MuxPlayer 
     streamType="live"
-    playbackId="be28dce0-79e9-a426-c2b2-0b4a00d6e18d"
+    playbackId="KJ9VPlYc600yPJfV5qcPU6KJ018erN4Y3x4vTn1nwpACM"
     metadataVideoTitle="Placeholder (optional)"
     metadataViewerUserId="Placeholder (optional)"
     primaryColor="#FFFFFF"
