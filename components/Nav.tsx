@@ -8,12 +8,17 @@ import {
 } from "@/components/ui/sheet"
 
 import { RiMenu3Line } from "react-icons/ri";
+import { GoPerson } from "react-icons/go";
+import Image from 'next/image'
+import Logo from '../public/moonLogo.jpeg';
+import { CiStreamOn } from "react-icons/ci";
+import Link from "next/link";
 
 export default function Nav(){
 
     return(
-      <div className="navbar bg-base-100">
-      <div className="navbar-start">
+      <div className="navbar bg-base-100 ">
+      <div className="navbar-start ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
             {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg> */}
@@ -21,7 +26,16 @@ export default function Nav(){
   <SheetTrigger><RiMenu3Line /></SheetTrigger>
   <SheetContent>
     <SheetHeader>
-      <SheetTitle>Are you absolutely sure?</SheetTitle>
+   < Image
+      src={Logo}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+      
+      <SheetTitle>Nome do usuario</SheetTitle>
       <SheetDescription>
         This action cannot be undone. This will permanently delete your account
         and remove your data from our servers.
@@ -29,17 +43,22 @@ export default function Nav(){
     </SheetHeader>
   </SheetContent>
 </Sheet>
-          </div>
 
-          {/* <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a>Homepage</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>About</a></li>
-          </ul> */}
+ 
+          </div>
         </div>
+        <div className='flex'> <h2 className="red ml-2 font-semibold"><Link href='/'>Live</Link> </h2> </div>
       </div>
+      
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl">MooN</a>
+        <a className="btn btn-ghost text-xl"><Image
+      src={Logo}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    /></a>
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">
