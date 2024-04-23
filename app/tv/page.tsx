@@ -91,8 +91,8 @@ className=""
 
 <h2 className="text-center"> Programacao</h2>
 
-{/* <div className="flex overflow-x-auto max-w-full">
-  <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+<div className="flex overflow-x-auto max-w-full">
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
       className="justify-center mt-9"
       src={programacao}
@@ -103,7 +103,7 @@ className=""
       // placeholder="blur" // Optional blur-up while loading
     />
   </div>
-  <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
       className="justify-center mt-9"
       src={programacao}
@@ -115,7 +115,7 @@ className=""
     />
     <h2>Nao Perca <br/> Momentos de Comedia</h2>
   </div>
-  <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
       className="justify-center mt-9"
       src={programacao}
@@ -126,10 +126,10 @@ className=""
       // placeholder="blur" // Optional blur-up while loading
     />
   </div>
-  {/* Adicione mais cards conforme necessário */}
-{/* </div> */} 
+  {/* Adicione mais cards conforme necessário
+</div> 
 
-<div className="flex overflow-x-auto max-w-full">
+{/* <div className="flex overflow-x-auto max-w-full">
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
       className="justify-center mt-2"
@@ -168,7 +168,7 @@ className=""
   </div>
   {/* Adicione mais cards conforme necessário */}
 {/* </div> */}
-<div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+{/* <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
       className="justify-center mt-2"
       src={programacao}
@@ -179,9 +179,9 @@ className=""
       // placeholder="blur" // Optional blur-up while loading
     />
  
+</div> */} 
+
 </div>
-
-
   </div>
 
   
