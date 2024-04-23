@@ -113,6 +113,7 @@ className=""
       // blurDataURL="data:..." automatically provided
       // placeholder="blur" // Optional blur-up while loading
     />
+    <h2>Nao Perca <br/> Momentos de Comedia</h2>
   </div>
   <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
