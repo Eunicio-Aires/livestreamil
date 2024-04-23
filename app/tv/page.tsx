@@ -23,7 +23,7 @@ export default function TvStream(){
 
 
 <section className="w-99% h-100vh flex p-3 mt-3 bg-base-100">
-  <div className=" lg:w-[74%] w-full border mr-1 bg-base-100"> 
+  <div className=" lg:w-[74%] w-full  mr-1 bg-base-100"> 
   <MuxPlayer 
     streamType="live"
     playbackId="02a01NjB00dm02Wg426KR8aMKnkZD538JnG7YQZmkoNoebc"
@@ -75,7 +75,7 @@ export default function TvStream(){
   </div>
 </section>
 
-<div className="p-2 max-w-48 ">
+{/* <div className="p-2 max-w-48 ">
 <MuxPlayer
 className=""
   streamType="on-demand"
@@ -85,7 +85,7 @@ className=""
   primaryColor="#FFFFFF"
   secondaryColor="#000000"
 />
-</div>
+</div> */}
 
 <div className="flex overflow-x-auto max-w-full">
   <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
