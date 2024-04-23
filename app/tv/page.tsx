@@ -17,7 +17,7 @@ export default function TvStream(){
 
     return (
 
-      <div className=" ">
+      <div className="bg-transparent ">
         <Nav />
         
         {/* <div className="flex justify-center  h-screen">
