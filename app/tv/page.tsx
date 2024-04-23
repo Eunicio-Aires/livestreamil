@@ -132,7 +132,7 @@ className=""
 <div className="flex overflow-x-auto max-w-full">
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
-      className="justify-center mt-9"
+      className="justify-center mt-2"
       src={programacao}
       alt="Logo Moon"
       width={150} 
@@ -144,7 +144,7 @@ className=""
   </div>
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
-      className="justify-center mt-9"
+      className="justify-center mt-2"
       src={programacao}
       alt="Logo Moon"
       width={150} 
@@ -156,7 +156,7 @@ className=""
   </div>
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
-      className="justify-center mt-9"
+      className="justify-center mt-2"
       src={programacao}
       alt="Logo Moon"
       width={150} 
@@ -170,7 +170,7 @@ className=""
 {/* </div> */}
 <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
-      className="justify-center mt-9"
+      className="justify-center mt-2"
       src={programacao}
       alt="Logo Moon"
       width={150} 
