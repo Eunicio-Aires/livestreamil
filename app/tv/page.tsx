@@ -87,6 +87,20 @@ className=""
 />
 </div>
 
+<div className="flex overflow-x-auto max-w-full">
+  <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+    Card 1
+  </div>
+  <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+    Card 2
+  </div>
+  <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+    Card 3
+  </div>
+  {/* Adicione mais cards conforme necessário */}
+</div>
+
+
   </div>
 
   
