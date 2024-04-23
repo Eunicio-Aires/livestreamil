@@ -34,7 +34,7 @@ export default function TvStream(){
   </div>
 </div> */}
 
-<section className="w-99% h-500px flex p-3 mt-3">
+<section className="w-99% h-500px flex p-3 mt-3 bg-transparent">
   <div className=" lg:w-[74%] w-full border mr-1"> 
   <MuxPlayer 
     streamType="live"
