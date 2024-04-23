@@ -87,6 +87,8 @@ className=""
 />
 </div> */}
 
+<h2 className="txt">Programacao</h2>
+
 <div className="flex overflow-x-auto max-w-full">
   <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
     Card 1
