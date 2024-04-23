@@ -129,6 +129,58 @@ className=""
   {/* Adicione mais cards conforme necessário */}
 </div>
 
+<div className="flex overflow-x-auto max-w-full">
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+  < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+  </div>
+  </div>
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+  < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+  
+  </div>
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+  < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+ 
+  </div>
+  {/* Adicione mais cards conforme necessário */}
+{/* </div> */}
+<div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
+  < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+ 
+
+
 
   </div>
 
