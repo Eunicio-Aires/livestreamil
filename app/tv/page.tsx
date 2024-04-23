@@ -17,13 +17,13 @@ export default function TvStream(){
 
     return (
 
-      <div className="bg-transparent ">
+      <div className="bg-base-100 ">
         <Nav />
         
 
 
-<section className="w-99% h-500px flex p-3 mt-3 bg-transparent">
-  <div className=" lg:w-[74%] w-full border mr-1 bg-transparent"> 
+<section className="w-99% h-100vh flex p-3 mt-3 bg-base-100">
+  <div className=" lg:w-[74%] w-full border mr-1 bg-base-100"> 
   <MuxPlayer 
     streamType="live"
     playbackId="02a01NjB00dm02Wg426KR8aMKnkZD538JnG7YQZmkoNoebc"
