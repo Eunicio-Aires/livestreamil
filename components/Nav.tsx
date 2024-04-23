@@ -26,7 +26,23 @@ export default function Nav(){
   <SheetTrigger><RiMenu3Line /></SheetTrigger>
   <SheetContent>
     <SheetHeader>
-   < Image
+  
+      
+      <SheetTitle className='ml-4'>Nome do usuario</SheetTitle>
+      <SheetDescription>
+      <div className='mt-5 ml-4'>
+      
+      <ul>
+        <li className ='mt-3'> <Link  href="/" > Sobre</Link></li>
+        <li className ='mt-3'> <Link  href="/" > Perfil</Link></li>
+        <li className ='mt-3'> <Link  href="/" > Programacao</Link></li>
+        <li className ='mt-3'> <Link  href="/" > Meus Servicos</Link></li>
+        <li className ='mt-3'> <Link  href="/" > Definicoes</Link></li>
+      </ul>
+    </div>
+      </SheetDescription>
+      < Image
+      className="justify-center mt-9"
       src={Logo}
       alt="Logo Moon"
       width={150} 
@@ -34,14 +50,9 @@ export default function Nav(){
       // blurDataURL="data:..." automatically provided
       // placeholder="blur" // Optional blur-up while loading
     />
-      
-      <SheetTitle>Nome do usuario</SheetTitle>
-      <SheetDescription>
-        This action cannot be undone. This will permanently delete your account
-        and remove your data from our servers.
-      </SheetDescription>
     </SheetHeader>
   </SheetContent>
+
 </Sheet>
 
  

@@ -34,8 +34,8 @@ export default function TvStream(){
   </div>
 </div> */}
 
-<section className="w-99% h-500px flex p-3">
-  <div className="w-[74%] border"> 
+<section className="w-99% h-500px flex p-3 mt-3">
+  <div className=" lg:w-[74%] w-full border mr-1"> 
   <MuxPlayer 
     streamType="live"
     playbackId="02a01NjB00dm02Wg426KR8aMKnkZD538JnG7YQZmkoNoebc"
@@ -46,7 +46,7 @@ export default function TvStream(){
   /></div>
 
 
-  <div className="w-1/4 border rounded-sm p-2">
+  <div className=" hidden lg:block w-1/4 border rounded-sm p-2 ml-1 ">
     <h3 className=""> <CiStreamOn /></h3>
 
 
