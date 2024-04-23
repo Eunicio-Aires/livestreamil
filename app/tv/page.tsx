@@ -20,19 +20,7 @@ export default function TvStream(){
       <div className="bg-transparent ">
         <Nav />
         
-        {/* <div className="flex justify-center  h-screen">
-        
-  <div className="w-[97%] max-h-[450px] flex border-10 border-black p-4 rounded-sm">
-  <MuxPlayer 
-    streamType="live"
-    playbackId="jWf63QkG8mqkn6BHWCcSzjuukCbunYa9wi6wRh02DwoU"
-    metadataVideoTitle="Placeholder (optional)"
-    metadataViewerUserId="Placeholder (optional)"
-    primaryColor="#FFFFFF"
-    secondaryColor="#000000"
-  />
-  </div>
-</div> */}
+
 
 <section className="w-99% h-500px flex p-3 mt-3 bg-transparent">
   <div className=" lg:w-[74%] w-full border mr-1 bg-transparent"> 
