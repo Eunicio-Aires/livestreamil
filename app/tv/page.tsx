@@ -11,6 +11,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { CiStreamOn } from "react-icons/ci";
+import programacao from "../../public/programacao.jpeg"
+import Image from 'next/image'
 
 
 export default function TvStream(){
@@ -87,11 +89,19 @@ className=""
 />
 </div> */}
 
-<h2 className="txt">Programacao</h2>
+<h2 className="text-center"> Programacao</h2>
 
 <div className="flex overflow-x-auto max-w-full">
   <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
-    Card 1
+  < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
   </div>
   <div className="flex-none w-1/2 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
     Card 2
