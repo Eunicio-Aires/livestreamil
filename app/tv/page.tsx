@@ -91,7 +91,7 @@ className=""
 
 <h2 className="text-center"> Programacao</h2>
 
-<div className="flex overflow-x-auto max-w-full">
+<div className="flex overflow-x-auto rounded-sm max-w-full bg-slate-100 p-2">
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
   < Image
       className="justify-center mt-9"
