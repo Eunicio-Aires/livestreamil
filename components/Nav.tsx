@@ -58,7 +58,7 @@ export default function Nav(){
  
           </div>
         </div>
-        <div className='flex'> <h2 className="red ml-2 font-semibold"><Link href='/'>Live</Link> </h2> </div>
+        <div className='flex'> <h2 className=" ml-2 btn btn-outline btn-error btn-xs"><Link href='/'>Live</Link> </h2> </div>
       </div>
       
       <div className="navbar-center">
