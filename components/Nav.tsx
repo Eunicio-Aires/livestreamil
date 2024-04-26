@@ -12,6 +12,7 @@ import { GoPerson } from "react-icons/go";
 import Image from 'next/image'
 import Logo from '../public/moonLogo.jpeg';
 import { CiStreamOn } from "react-icons/ci";
+import { FiUser } from "react-icons/fi";
 import Link from "next/link";
 
 export default function Nav(){
@@ -58,7 +59,7 @@ export default function Nav(){
  
           </div>
         </div>
-        <div className='flex'> <h2 className=" ml-2 btn btn-outline btn-error btn-xs"><Link href='/'>Live</Link> </h2> </div>
+        <div className='flex'> <Link href='/'className=" ml-2 btn btn-outline  btn-xs"><FiUser /></Link> </div>
       </div>
       
       <div className="navbar-center">

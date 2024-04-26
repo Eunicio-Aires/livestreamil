@@ -16,6 +16,7 @@ import Image from 'next/image'
 import afterp from '../../public/afterp.jpeg'
 import dudas from '../../public/dudas.jpeg'
 import ultima from '../../public/ultima.jpeg'
+import BlinkingButton from "@/components/Blinkbutton"
 
 
 export default function TvStream(){
@@ -28,6 +29,7 @@ export default function TvStream(){
 
 
 <section className="w-99% h-100vh flex p-3 mt-3 bg-base-100">
+  {/* <BlinkingButton/> */}
   <div className=" lg:w-[74%] w-full  mr-1 bg-base-100"> 
   <MuxPlayer 
     streamType="live"
