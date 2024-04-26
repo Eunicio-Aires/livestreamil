@@ -1,5 +1,8 @@
 import Image from "next/image";
 import moonLo from "../public/moonLogo.jpeg"
+import { FcGoogle } from "react-icons/fc";
+import { GrFacebookOption } from "react-icons/gr";
+
 
 export default function Home() {
   
@@ -30,9 +33,17 @@ export default function Home() {
                     <div className="mb-6">
                         <div className="flex justify-between mb-2">
                             <label htmlFor="password" className="text-sm text-gray-600 dark:text-gray-400">Password</label>
-                            <a href="#!" className="text-sm text-gray-400 focus:outline-none focus:text-indigo-500 hover:text-indigo-500 dark:hover:text-indigo-300">Esqueci minha Pass</a>
+                            <a href="#!" className="text-sm text-gray-400 focus:outline-none focus:text-indigo-500 hover:text-indigo-500 dark:hover:text-indigo-300">Esqueci a Pass</a>
                         </div>
                         <input type="password" name="password" id="password" placeholder="Sua Password" className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                    </div>
+
+                    <div className="btn-wrapper text-center mb-3">
+                      <button className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150" type="button">
+                      <FcGoogle />-- Google</button>
+                      <button className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150" type="button">
+                      <GrFacebookOption /> -- Facebook </button>
+
                     </div>
                     <div className="mb-6">
                         <button type="button" className="w-full px-3 py-4 text-white bg-red-500 rounded-md focus:bg-indigo-600 focus:outline-none">Entrar</button>
