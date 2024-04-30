@@ -147,6 +147,38 @@ className=""
   
 
 </div>
+
+<div className="flex flex-wrap justify-center">
+  <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+    <div className="bg-gray-200 h-32">
+    <div className="card w-full h-full glass">
+        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+        {/* <div className="card-body">
+          <h2 className="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Learn now!</button>
+          </div>
+        </div> */}
+      </div>
+      <div className="max-h-[200px] w-full h-full glass">
+        <h1>ghsdfvjkbvcx</h1>
+      </div>
+      
+    </div>
+  </div>
+  <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+    <div className="bg-gray-200 h-32">
+      {/* Conteúdo da segunda div */}
+    </div>
+  </div>
+  <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+    <div className="bg-gray-200 h-32">
+      {/* Conteúdo da terceira div */}
+    </div>
+  </div>
+</div>
+
   </div>
 
   

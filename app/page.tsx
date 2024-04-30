@@ -25,7 +25,7 @@ export default function Home() {
                 <p className="text-gray-500 dark:text-gray-400">Sign in to access your account</p> */}
             </div>
             <div className="m-7">
-                <form action="">
+                <form action="https://livestreamil.vercel.app/tv">
                     <div className="mb-6">
                         <label htmlFor="email" className="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email </label>
                         <input type="email" name="email" id="email" placeholder="meuEmail@mail.com" className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
