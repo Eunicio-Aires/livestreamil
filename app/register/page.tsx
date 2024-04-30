@@ -38,7 +38,7 @@ export default function Registar(){
                 <input type="password" id="password" className="form-input w-full px-4 py-2 border rounded-lg text-gray-700 focus:ring-blue-500" required placeholder="••••••••"/>
                 <p className="text-gray-600 text-xs mt-1">Crie uma Password Segura</p>
             </div>
-            <button type="submit" className="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Registar</button>
+            <button type="submit" className="w-full bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">Registar</button>
             {/* <p className="text-gray-600 text-xs text-center mt-4">
                 By clicking Register, you agree to accept Apex Financial's
                 <a href="#" className="text-blue-500 hover:underline">Terms and Conditions</a>.
