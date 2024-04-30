@@ -142,6 +142,82 @@ className=""
     </div>
   
   </div>
+
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
+    <div className="max-w-[150]">
+    < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+
+    <h2 className="text-lg">Comedia</h2>
+    <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
+
+    </div>
+  
+  </div>
+
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
+    <div className="max-w-[150]">
+    < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+
+    <h2 className="text-lg">Comedia</h2>
+    <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
+
+    </div>
+  
+  </div>
+
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
+    <div className="max-w-[150]">
+    < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+
+    <h2 className="text-lg">Comedia</h2>
+    <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
+
+    </div>
+  
+  </div>
+
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
+    <div className="max-w-[150]">
+    < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+
+    <h2 className="text-lg">Comedia</h2>
+    <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
+
+    </div>
+  
+  </div>
  
 
   
@@ -168,13 +244,43 @@ className=""
     </div>
   </div>
   <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+    
     <div className="bg-gray-200 h-32">
-      {/* Conteúdo da segunda div */}
+    <div className="card w-full h-full glass">
+        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+        {/* <div className="card-body">
+          <h2 className="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Learn now!</button>
+          </div>
+        </div> */}
+      </div>
+      <div className="max-h-[200px] w-full h-full glass">
+        <h1>ghsdfvjkbvcx</h1>
+      </div>
+      
     </div>
+ 
   </div>
   <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+   
     <div className="bg-gray-200 h-32">
-      {/* Conteúdo da terceira div */}
+    <div className="card w-full h-full glass">
+        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+        {/* <div className="card-body">
+          <h2 className="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Learn now!</button>
+          </div>
+        </div> */}
+      </div>
+      <div className="max-h-[200px] w-full h-full glass">
+        <h1>ghsdfvjkbvcx</h1>
+      </div>
+      
+    
     </div>
   </div>
 </div>
