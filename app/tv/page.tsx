@@ -17,6 +17,7 @@ import afterp from '../../public/afterp.jpeg'
 import dudas from '../../public/dudas.jpeg'
 import ultima from '../../public/ultima.jpeg'
 import BlinkingButton from "@/components/Blinkbutton"
+import SearchBar from "@/components/SearchBar"
 
 
 export default function TvStream(){
@@ -26,7 +27,7 @@ export default function TvStream(){
       <div className="bg-base-100 ">
         <Nav />
         
-
+{/* <SearchBar /> */}
 
 <section className="w-99% h-100vh flex p-3 mt-3 bg-base-100">
   {/* <BlinkingButton/> */}
@@ -67,14 +68,22 @@ export default function TvStream(){
 </div>
 
 <div className="card lg:card-side bg-base-100 shadow-xl max-h-30 mt-2">
-  <figure className="w-28"><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
-  <div className="card-body">
+  <figure className="w-28">< Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={110} 
+      height={250} 
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    /></figure>
+  {/* <div className="card-body"> */}
     {/* <h2 className="card-title">New album is released!</h2>
     <p>Click the button to listen on Spotiwhy app.</p>
     <div className="card-actions justify-end">
       <button className="btn btn-primary">Listen</button>
     </div> */}
-  </div>
+  {/* </div> */}
 </div>
 
 <div className="card lg:card-side bg-base-100 shadow-xl max-h-30 mt-2">
@@ -116,7 +125,8 @@ className=""
 
 <div className="flex overflow-x-auto rounded-sm max-w-full bg-slate-100  m-2">
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-  < Image
+    <div className="max-w-[150]">
+    < Image
       className="justify-center mt-9"
       src={programacao}
       alt="Logo Moon"
@@ -125,110 +135,16 @@ className=""
       // blurDataURL="data:..." automatically provided
       // placeholder="blur" // Optional blur-up while loading
     />
-  </div>
-  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-  < Image
-      className="justify-center mt-9"
-      src={afterp}
-      alt="Logo Moon"
-      width={150} 
-      // height={500} automatically provided
-      // blurDataURL="data:..." automatically provided
-      // placeholder="blur" // Optional blur-up while loading
-    />
-  <div className="max-w-40"><h2>Nao Perca <br/> Momentos de Comedia</h2></div>  
-  </div>
 
-  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-  <label htmlFor="my_modal_6" className="btn">
-  <input type="checkbox" id="my_modal_6" className="modal-toggle" />
-<div className="modal" role="dialog">
-  <div className="modal-box">
-    <h3 className="font-bold text-lg">Hello!</h3>
-    <p className="py-4">This modal works with a hidden checkbox!</p>
-    <div className="modal-action">
-      <label htmlFor="my_modal_6" className="btn">Close!</label>
+    <h2 className="text-lg">Comedia</h2>
+    <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
+
     </div>
-  </div>
-</div>
-  < Image
-      className="justify-center mt-9"
-      src={dudas}
-      alt="Logo Moon"
-      width={150} 
-      height={290} 
-      // blurDataURL="data:..." automatically provided
-      // placeholder="blur" // Optional blur-up while loading
-    />
-    <div className="max-w-40"><h2>Nao Perca <br/> Momentos de Comedia</h2></div>
-    </label>
-  </div>
-  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-  < Image
-      className="justify-center mt-9"
-      src={ultima}
-      alt="Logo Moon"
-      width={150} 
-      height={290} 
-      // blurDataURL="data:..." automatically provided
-      // placeholder="blur" // Optional blur-up while loading
-    />
-  </div>
-
-  {/* Adicione mais cards conforme necessário
-</div> 
-
-{/* <div className="flex overflow-x-auto max-w-full">
-  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
-  < Image
-      className="justify-center mt-2"
-      src={programacao}
-      alt="Logo Moon"
-      width={150} 
-      // height={500} automatically provided
-      // blurDataURL="data:..." automatically provided
-      // placeholder="blur" // Optional blur-up while loading
-    />
-  </div>
-  </div>
-  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
-  < Image
-      className="justify-center mt-2"
-      src={programacao}
-      alt="Logo Moon"
-      width={150} 
-      // height={500} automatically provided
-      // blurDataURL="data:..." automatically provided
-      // placeholder="blur" // Optional blur-up while loading
-    />
   
   </div>
-  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
-  < Image
-      className="justify-center mt-2"
-      src={programacao}
-      alt="Logo Moon"
-      width={150} 
-      // height={500} automatically provided
-      // blurDataURL="data:..." automatically provided
-      // placeholder="blur" // Optional blur-up while loading
-    />
  
-  </div>
-  {/* Adicione mais cards conforme necessário */}
-{/* </div> */}
-{/* <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-4">
-  < Image
-      className="justify-center mt-2"
-      src={programacao}
-      alt="Logo Moon"
-      width={150} 
-      // height={500} automatically provided
-      // blurDataURL="data:..." automatically provided
-      // placeholder="blur" // Optional blur-up while loading
-    />
- 
-</div> */} 
+
+  
 
 </div>
   </div>
