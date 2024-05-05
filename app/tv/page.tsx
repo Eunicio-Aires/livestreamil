@@ -2,6 +2,7 @@
 import MuxPlayer from "@mux/mux-player-react"; 
 import Nav from '@/components/Nav'
 import { RiMenu3Line } from "react-icons/ri";
+import { useToast } from "@/components/ui/use-toast"
 import {
   Sheet,
   SheetContent,
@@ -21,7 +22,7 @@ import SearchBar from "@/components/SearchBar"
 
 
 export default function TvStream(){
-
+  const { toast } = useToast()
     return (
 
       <div className="bg-base-100 ">
@@ -123,9 +124,21 @@ className=""
 
 <h2 className="text-center"> Programacao</h2>
 
+
+
+
 <div className="flex overflow-x-auto rounded-sm max-w-full bg-slate-100  m-2">
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-    <div className="max-w-[150]">
+  
+  <div className="max-w-[150] "
+    onClick={() => {
+      toast({
+        title: "Show de standUp Comedy",
+        description: "Sabado, Maio 11, 2024 pelas 5:57 PM",
+      })
+    }}
+  >
+  
     < Image
       className="justify-center mt-9"
       src={programacao}
@@ -135,8 +148,37 @@ className=""
       // blurDataURL="data:..." automatically provided
       // placeholder="blur" // Optional blur-up while loading
     />
+    
+    <h2 className="text-md">Stand Up Comedy</h2>
+    <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
-    <h2 className="text-lg">Comedia</h2>
+    </div>
+ 
+   
+  
+  </div>
+
+  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
+  <div className="max-w-[150] "
+    onClick={() => {
+      toast({
+        title: "Show de standUp Comedy",
+        description: "Sabado, Maio 11, 2024 pelas 5:57 PM",
+      })
+    }}
+  >
+  
+    < Image
+      className="justify-center mt-9"
+      src={programacao}
+      alt="Logo Moon"
+      width={150} 
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+    
+    <h2 className="text-md">Stand Up Comedy</h2>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>
@@ -144,7 +186,15 @@ className=""
   </div>
 
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-    <div className="max-w-[150]">
+  <div className="max-w-[150] "
+    onClick={() => {
+      toast({
+        title: "Show de standUp Comedy",
+        description: "Sabado, Maio 11, 2024 pelas 5:57 PM",
+      })
+    }}
+  >
+  
     < Image
       className="justify-center mt-9"
       src={programacao}
@@ -154,8 +204,8 @@ className=""
       // blurDataURL="data:..." automatically provided
       // placeholder="blur" // Optional blur-up while loading
     />
-
-    <h2 className="text-lg">Comedia</h2>
+    
+    <h2 className="text-md">Stand Up Comedy</h2>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>
@@ -163,7 +213,15 @@ className=""
   </div>
 
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-    <div className="max-w-[150]">
+  <div className="max-w-[150] "
+    onClick={() => {
+      toast({
+        title: "Show de standUp Comedy",
+        description: "Sabado, Maio 11, 2024 pelas 5:57 PM",
+      })
+    }}
+  >
+  
     < Image
       className="justify-center mt-9"
       src={programacao}
@@ -173,8 +231,8 @@ className=""
       // blurDataURL="data:..." automatically provided
       // placeholder="blur" // Optional blur-up while loading
     />
-
-    <h2 className="text-lg">Comedia</h2>
+    
+    <h2 className="text-md">Stand Up Comedy</h2>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>
@@ -182,26 +240,15 @@ className=""
   </div>
 
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-    <div className="max-w-[150]">
-    < Image
-      className="justify-center mt-9"
-      src={programacao}
-      alt="Logo Moon"
-      width={150} 
-      // height={500} automatically provided
-      // blurDataURL="data:..." automatically provided
-      // placeholder="blur" // Optional blur-up while loading
-    />
-
-    <h2 className="text-lg">Comedia</h2>
-    <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
-
-    </div>
+  <div className="max-w-[150] "
+    onClick={() => {
+      toast({
+        title: "Show de standUp Comedy",
+        description: "Sabado, Maio 11, 2024 pelas 5:57 PM",
+      })
+    }}
+  >
   
-  </div>
-
-  <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
-    <div className="max-w-[150]">
     < Image
       className="justify-center mt-9"
       src={programacao}
@@ -211,8 +258,8 @@ className=""
       // blurDataURL="data:..." automatically provided
       // placeholder="blur" // Optional blur-up while loading
     />
-
-    <h2 className="text-lg">Comedia</h2>
+    
+    <h2 className="text-md">Stand Up Comedy</h2>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>

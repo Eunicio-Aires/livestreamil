@@ -1,11 +1,12 @@
 import Image from "next/image";
+import { useToast } from "@/components/ui/use-toast"
 import moonLo from "../public/moonLogo.jpeg"
 import { FcGoogle } from "react-icons/fc";
 import { GrFacebookOption } from "react-icons/gr";
 
 
 export default function Home() {
-  
+    
   return (
  <div>
     <div className="flex items-center min-h-screen bg-white dark:bg-gray-900">
