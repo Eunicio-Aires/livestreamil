@@ -21,6 +21,7 @@ import BlinkingButton from "@/components/Blinkbutton"
 import SearchBar from "@/components/SearchBar"
 
 
+
 export default function TvStream(){
   const { toast } = useToast()
     return (
@@ -122,10 +123,12 @@ className=""
 />
 </div> */}
 
-<h2 className="text-center"> Programacao</h2>
 
 
 
+
+<div className="bg-slate-100 rounded-sm pt-4">
+  <h3 className="text-center text-red-700 font-semibold mt-5 "> Lives </h3>
 
 <div className="flex overflow-x-auto rounded-sm max-w-full bg-slate-100  m-2">
   <div className="flex-none w-1/3 sm:w-auto md:w-auto lg:w-auto xl:w-auto p-3">
@@ -140,7 +143,7 @@ className=""
   >
   
     < Image
-      className="justify-center mt-9"
+      className="justify-center mt-4"
       src={programacao}
       alt="Logo Moon"
       width={150} 
@@ -149,7 +152,7 @@ className=""
       // placeholder="blur" // Optional blur-up while loading
     />
     
-    <h2 className="text-md">Stand Up Comedy</h2>
+    <h6 className="text-sm font-semibold">Stand Up Comedy</h6>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>
@@ -169,7 +172,7 @@ className=""
   >
   
     < Image
-      className="justify-center mt-9"
+      className="justify-center mt-4"
       src={programacao}
       alt="Logo Moon"
       width={150} 
@@ -178,7 +181,7 @@ className=""
       // placeholder="blur" // Optional blur-up while loading
     />
     
-    <h2 className="text-md">Stand Up Comedy</h2>
+    <h6 className="text-sm font-semibold">Stand Up Comedy</h6>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>
@@ -196,7 +199,7 @@ className=""
   >
   
     < Image
-      className="justify-center mt-9"
+      className="justify-center mt-4"
       src={programacao}
       alt="Logo Moon"
       width={150} 
@@ -205,7 +208,7 @@ className=""
       // placeholder="blur" // Optional blur-up while loading
     />
     
-    <h2 className="text-md">Stand Up Comedy</h2>
+    <h6 className="text-sm font-semibold">Stand Up Comedy</h6>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>
@@ -223,7 +226,7 @@ className=""
   >
   
     < Image
-      className="justify-center mt-9"
+      className="justify-center mt-4"
       src={programacao}
       alt="Logo Moon"
       width={150} 
@@ -232,7 +235,7 @@ className=""
       // placeholder="blur" // Optional blur-up while loading
     />
     
-    <h2 className="text-md">Stand Up Comedy</h2>
+    <h6 className="text-sm font-semibold">Stand Up Comedy</h6>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>
@@ -250,7 +253,7 @@ className=""
   >
   
     < Image
-      className="justify-center mt-9"
+      className="justify-center mt-4"
       src={programacao}
       alt="Logo Moon"
       width={150} 
@@ -259,7 +262,7 @@ className=""
       // placeholder="blur" // Optional blur-up while loading
     />
     
-    <h2 className="text-md">Stand Up Comedy</h2>
+    <h6 className="text-sm font-semibold">Stand Up Comedy</h6>
     <p className="text-xs">Nao perca momentos de <br />stand up comedy</p>
 
     </div>
@@ -268,14 +271,24 @@ className=""
  
 
   
-
+  </div>
 </div>
 
+<h3 className="text-center text-red-700 font-semibold mt-8 "> Videos </h3>
+
 <div className="flex flex-wrap justify-center">
-  <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-    <div className="bg-gray-200 h-32">
-    <div className="card w-full h-full glass">
-        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+  <div className="w-full sm:w-1/2 lg:w-1/3 p-4 ">
+    <div className="bg-gray-200 h-32 ">
+    <div className="card w-full h-full glass ">
+    <MuxPlayer
+          playbackId="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
+          accentColor="#ea580c"
+          metadata={{
+            videoTitle: "Test VOD",
+            ViewerUserId: "user-id-007"
+          }}
+        />
+        {/* <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure> */}
         {/* <div className="card-body">
           <h2 className="card-title">Life hack</h2>
           <p>How to park your car at your garage?</p>
@@ -284,17 +297,23 @@ className=""
           </div>
         </div> */}
       </div>
-      <div className="max-h-[200px] w-full h-full glass">
-        <h1>ghsdfvjkbvcx</h1>
-      </div>
+      
       
     </div>
   </div>
-  <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+  <div className="w-full sm:w-1/2 lg:w-1/3 p-4 ">
     
-    <div className="bg-gray-200 h-32">
-    <div className="card w-full h-full glass">
-        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+    <div className="bg-gray-200 h-32 mt-14">
+    <div className="card w-full h-full glass ">
+    <MuxPlayer
+          playbackId="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
+          accentColor="#ea580c"
+          metadata={{
+            videoTitle: "Test VOD",
+            ViewerUserId: "user-id-007"
+          }}
+        />
+        {/* <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure> */}
         {/* <div className="card-body">
           <h2 className="card-title">Life hack</h2>
           <p>How to park your car at your garage?</p>
@@ -303,18 +322,29 @@ className=""
           </div>
         </div> */}
       </div>
-      <div className="max-h-[200px] w-full h-full glass">
+      {/* <div className="max-h-[200px] w-full h-full glass">
         <h1>ghsdfvjkbvcx</h1>
-      </div>
+      </div> */}
       
     </div>
  
   </div>
-  <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+  <div className="w-full sm:w-1/2 lg:w-1/3 p-4 ">
    
-    <div className="bg-gray-200 h-32">
-    <div className="card w-full h-full glass">
-        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+    <div className="bg-gray-200 h-32 mt-14">
+    
+    
+    <div className="card w-full h-full glass ">
+      <MuxPlayer
+      className="mb-10"
+          playbackId="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
+          accentColor="#ea580c"
+          metadata={{
+            videoTitle: "Test VOD",
+            ViewerUserId: "user-id-007"
+          }}
+        />
+        {/* <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure> */}
         {/* <div className="card-body">
           <h2 className="card-title">Life hack</h2>
           <p>How to park your car at your garage?</p>
@@ -323,9 +353,7 @@ className=""
           </div>
         </div> */}
       </div>
-      <div className="max-h-[200px] w-full h-full glass">
-        <h1>ghsdfvjkbvcx</h1>
-      </div>
+     
       
     
     </div>
